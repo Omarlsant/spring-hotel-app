@@ -1,0 +1,43 @@
+# 1. Archivos Compilados y Construcción
+bin/
+build/
+target/
+out/
+*.class
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# 2. Gestión de Dependencias (Proyecto sin Maven/Gradle)
+!*.jar
+
+# 3. Hibernate y Configuración de Base de Datos
+*.log
+hibernate.log
+show_sql.log
+
+
+database.properties
+.env
+application.properties
+
+# 4. Configuraciones de IDEs y Editores
+.settings/
+.project
+.classpath
+.factorypath
+.idea/
+*.iml
+*.ipr
+*.iws
+
+.vscode/
+
+# 5. Archivos del Sistema Operativo
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
